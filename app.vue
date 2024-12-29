@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <NuxtLayout />
+  </div>
+</template>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+</style>
