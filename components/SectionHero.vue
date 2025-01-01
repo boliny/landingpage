@@ -1,9 +1,7 @@
 <template>
   <div class="hero-section py-10">
-    <div
-      class="container grid grid-cols items-center md:grid-cols-2 sm:grid-cols-2"
-    >
-      <div class="hero-heading">
+    <div class="container gap-5 grid grid-cols items-center md:grid-cols-2">
+      <div class="hero-heading lg:order-1 md:order-1 order-2">
         <h1
           class="text-4xl font-bold text-gradient lg:text-right md:text-right text-center"
         >
@@ -19,7 +17,9 @@
           <button class="btn mt-5">أطلب أستشارة مجانية</button>
         </div>
       </div>
-      <div class="img-landing">
+      <div
+        class="img-landing lg:order-2 md:order-2 order-1 mx-auto lg:w-full w-3/4"
+      >
         <img src="../images/hero/landing-img.png" alt="" />
       </div>
     </div>
